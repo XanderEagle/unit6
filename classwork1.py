@@ -1,2 +1,13 @@
-names = ("Abigail, Brenda, Chad, Doug, Emma, Francis, George, Harold, Imogen, Jackie, Kurt, Linda")
-
+names= ["Abigail"," Brenda", "Chad", "Doug", "Emma", "Francis", "George", "Harold", "Imogen", "Jackie", "Kurt", "Linda"]
+print(names[3:5])
+print(names[1:6])
+print(names[6:12])
+print(names[5])
+print(names[:])
+print(names[:])
+print(names[:])
+print(names[:])
+print(names[:])
+print(names[:])
+print(names[:])
+print(names[:])
