@@ -1,2 +1,0 @@
-for star in triangle():
-    

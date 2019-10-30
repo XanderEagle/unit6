@@ -1,8 +1,11 @@
-def add_numbers(nums):
-    total = 0
-    for x in nums:
-        total = x + total
-    return total
+nums = [1, 3, 4, 6, 2, 3]
 
 
-print(add_numbers([1, 2, 3, 4, 5, 6, 100, 123]), "is the total sum of the list")
+def has22(nums):
+    for x in range(len(nums)-1):
+        if nums[x] == 2 and nums[x + 1] == 2:
+            return True
+    return False
+
+
+print(has22(nums))
